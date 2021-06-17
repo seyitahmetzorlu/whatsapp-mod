@@ -27,12 +27,10 @@ body{
     width: 360px;
     background-color: #ffff;
     position: fixed;
- 
-  
+    box-shadow: rgb(0 0 0 / 10%) 0px 12px 24px 0px;
     border-radius: 4%;
     padding: 0!important;
-    margin-bottom: 96px;
-    
+    margin-bottom: 96px;    
     bottom: 0px;
     right: 0px;
     left: auto;
@@ -159,9 +157,12 @@ p.user-task {
     background-color: transparent;
     position: relative;
     overflow: auto;
-    height: 105.8px;
+    height: 100%;
     margin-top: 4px;
 
+}
+.height-content{
+    height: 105.8px!important;
 }
 
 .contact-box{
@@ -189,6 +190,7 @@ p.user-task {
     height: 68px;
     width: 68px;
     border-radius: 100%;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 12px;
     background-color: white;
     position: fixed;
     bottom: 0px;
